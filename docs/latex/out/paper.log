@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.30)  15 APR 2025 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.30)  21 APR 2025 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,101 +351,51 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count288
-\float@exts=\toks25
-\float@box=\box54
-\@float@everytoks=\toks26
-\@floatcapt=\box55
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count289
-\lst@gtempboxa=\box56
-\lst@token=\toks27
-\lst@length=\count290
-\lst@currlwidth=\dimen177
-\lst@column=\count291
-\lst@pos=\count292
-\lst@lostspace=\dimen178
-\lst@width=\dimen179
-\lst@newlines=\count293
-\lst@lineno=\count294
-\lst@maxwidth=\dimen180
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count295
-\lst@skipnumbers=\count296
-\lst@framebox=\box57
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 227.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen181
+\oldvsize=\dimen177
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count297
-\l__pdf_internal_box=\box58
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box54
 )
 (out/paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 -- Lines per column: 56 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
-\scratchdimen=\dimen182
-\scratchbox=\box59
-\nofMPsegments=\count299
-\nofMParguments=\count300
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count301
-\MPscratchDim=\dimen183
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count289
+\scratchdimen=\dimen178
+\scratchbox=\box55
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen179
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -455,7 +405,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -466,101 +416,47 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count304
+\c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 (out/paper.out) (out/paper.out)
 \@outlinefile=\write3
 \openout3 = `paper.out'.
 
-\c@lstlisting=\count305
 
-Underfull \hbox (badness 5726) in paragraph at lines 43--44
-[]\OT1/ptm/m/n/10 The mo-ti-va-tion be-hind this work is to as-sist pi-
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<figs/local_minima_only.png, id=33, 738.50906pt x 346.29375pt>
-File: figs/local_minima_only.png Graphic file (type png)
-<use figs/local_minima_only.png>
-Package pdftex.def Info: figs/local_minima_only.png  used on input line 57.
-(pdftex.def)             Requested size: 252.0pt x 118.16103pt.
-<figs/additional_logic1.png, id=34, 694.09312pt x 340.27126pt>
-File: figs/additional_logic1.png Graphic file (type png)
-<use figs/additional_logic1.png>
-Package pdftex.def Info: figs/additional_logic1.png  used on input line 62.
-(pdftex.def)             Requested size: 252.0pt x 123.54117pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.65 
-      <./figs/local_minima_only.png (PNG copy)>]
-<figs/approach_segments.png, id=46, 763.35187pt x 1059.96pt>
-File: figs/approach_segments.png Graphic file (type png)
-<use figs/approach_segments.png>
-Package pdftex.def Info: figs/approach_segments.png  used on input line 69.
-(pdftex.def)             Requested size: 252.0pt x 349.91727pt.
-<figs/approach_viewer.png, id=47, 914.66719pt x 501.37312pt>
-File: figs/approach_viewer.png Graphic file (type png)
-<use figs/approach_viewer.png>
-Package pdftex.def Info: figs/approach_viewer.png  used on input line 76.
-(pdftex.def)             Requested size: 252.0pt x 138.13431pt.
-<figs/random_forest.png, id=49, 502.12593pt x 491.58656pt>
-File: figs/random_forest.png Graphic file (type png)
-<use figs/random_forest.png>
-Package pdftex.def Info: figs/random_forest.png  used on input line 90.
-(pdftex.def)             Requested size: 151.20154pt x 148.03218pt.
- [2pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.94 ...{Initial random forest model performance}]
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.3}) has been already used, duplicat
-e ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.94 ...{Initial random forest model performance}]
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.4}) has been already used, duplicat
-e ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.94 ...{Initial random forest model performance}]
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.5}) has been already used, duplicat
-e ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.94 ...{Initial random forest model performance}]
-                                                   <./figs/additional_logic1.pn
-g (PNG copy)> <./figs/approach_segments.png (PNG copy)> <./figs/approach_viewer
-.png (PNG copy)> <./figs/random_forest.png (PNG copy)>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 94.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
-4.
+]
+<figs/android_studio.png, id=46, 1440.13031pt x 810.77907pt>
+File: figs/android_studio.png Graphic file (type png)
+<use figs/android_studio.png>
+Package pdftex.def Info: figs/android_studio.png  used on input line 44.
+(pdftex.def)             Requested size: 258.0pt x 145.24113pt.
+<figs/spoofdetect_app.png, id=47, 480.29437pt x 514.17094pt>
+File: figs/spoofdetect_app.png Graphic file (type png)
+<use figs/spoofdetect_app.png>
+Package pdftex.def Info: figs/spoofdetect_app.png  used on input line 56.
+(pdftex.def)             Requested size: 258.0pt x 276.19673pt.
+ [2 <./figs/android_studio.png (PNG copy)> <./figs/spoofdetect_app.png (PNG cop
+y)>] (out/paper.bbl
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-<figs/gradient_boosting.png, id=59, 571.38469pt x 298.11375pt>
-File: figs/gradient_boosting.png Graphic file (type png)
-<use figs/gradient_boosting.png>
-Package pdftex.def Info: figs/gradient_boosting.png  used on input line 104.
-(pdftex.def)             Requested size: 252.0pt x 131.47977pt.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
 
-Underfull \hbox (badness 5741) in paragraph at lines 138--139
-[]\OT1/ptm/m/n/10 All of the code for this project is avail-able at:
- []
 
-(out/paper.bbl)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -572,32 +468,31 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.143 \end{document}
-                     <./figs/gradient_boosting.png (PNG copy)>] (out/paper.aux)
+
+Overfull \vbox (1.36494pt too high) has occurred while \output is active []
+
+
+[3] (out/paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 1865D683D4114FA6EA634D5F906DC086;787.
+(rerunfilecheck)             Checksum: 2E0DA9B1FD56C65123DAD51DB6EAF3C7;843.
  ) 
 Here is how much of TeX's memory you used:
- 12534 strings out of 480247
- 193291 string characters out of 5896151
- 618047 words of memory out of 5000000
- 30291 multiletter control sequences out of 15000+600000
- 500493 words of font info for 80 fonts, out of 8000000 for 9000
+ 10350 strings out of 480247
+ 164004 string characters out of 5896151
+ 466311 words of memory out of 5000000
+ 28143 multiletter control sequences out of 15000+600000
+ 502371 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,8n,63p,968b,1095s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,63p,1427b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on out/paper.pdf (3 pages, 1033121 bytes).
+e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on out/paper.pdf (3 pages, 405913 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 40 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
 

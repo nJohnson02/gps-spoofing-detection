@@ -21,14 +21,23 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{gil2022epilots}
-D.~Gil \emph{et~al.}, ``{E-Pilots: A System to Predict Hard Landing During the
-  Approach Phase of Commercial Flights},'' \emph{IEEE Access}, vol.~10, pp.
-  7489--7503, 2022.
+\bibitem{lu2021}
+Q.~Lu, X.~Feng, and C.~Zhou, ``A detection and weakening method for gnss
+  time-synchronization attacks,'' \emph{IEEE Sensors Journal}, vol.~21, no.~17,
+  pp. 19\,069--19\,077, 2021.
 
-\bibitem{chen2016xgboost}
-T.~Chen and C.~Guestrin, ``Xgboost: A scalable tree boosting system,''
-  \emph{Proceedings of the 22nd ACM SIGKDD international conference on
-  knowledge discovery and data mining}, pp. 785--794, 2016.
+\bibitem{meng2021}
+\BIBentryALTinterwordspacing
+L.~Meng, L.~Yang, S.~Ren, G.~Tang, L.~Zhang, F.~Yang, and W.~Yang, ``An
+  approach of linear regression-based uav gps spoofing detection,''
+  \emph{Wireless Communications and Mobile Computing}, vol. 2021, no.~1, p.
+  5517500, 2021. [Online]. Available:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1155/2021/5517500}
+\BIBentrySTDinterwordspacing
+
+\bibitem{bose2022}
+S.~C. Bose, ``Gps spoofing detection by neural network machine learning,''
+  \emph{IEEE Aerospace and Electronic Systems Magazine}, vol.~37, no.~6, pp.
+  18--31, 2022.
 
 \end{thebibliography}
