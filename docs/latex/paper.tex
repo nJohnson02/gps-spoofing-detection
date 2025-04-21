@@ -9,11 +9,14 @@
 
 \title{Mobile Device GNSS Spoofing Detection}
 
-\author{\IEEEauthorblockN{Nathan Johnson}
-\IEEEauthorblockA{Cybersecurity Department\\
-Embry-Riddle Aeronautical University\\
-Prescott, Arizona, USA\\
-johnsn63@my.erau.edu}}
+\author{
+    \IEEEauthorblockN{Nathan Johnson}
+    \IEEEauthorblockA{
+        Embry-Riddle Aeronautical University\\
+        Prescott, Arizona, USA\\
+        johnsn63@my.erau.edu
+    }
+}
 
 \begin{document}
 
@@ -23,11 +26,18 @@ johnsn63@my.erau.edu}}
 Global Navigation Satellite Systems (GNSS) play a critical role in modern infrastructure, from aviation and maritime navigation to time synchronization for cryptographic systems. However, the increasing reliance on GNSS has made it a valuable target for cyber threat actors, particularly through GNSS spoofing attacks. Unlike jamming, which simply disrupts GNSS signals, spoofing can deceive systems into using false positional data, leading to potentially severe consequences. This paper explores a novel approach to GNSS spoofing detection using mobile devices, leveraging onboard GNSS receivers and inertial sensors. Initial findings reveal significant limitations in consumer-grade accelerometers and gyroscopes for implementing a full Inertial Navigation System (INS). However, a simpler detection method based on monitoring deviations in GNSS position over time was developed. While this approach shows promise, false positive detections due to inherent GPS inaccuracies remain a challenge. Future work will focus on refining detection methods, potentially incorporating machine learning and noise reduction techniques to improve reliability.
 \end{abstract}
 
+\begin{IEEEkeywords}
+GNSS, GPS spoofing, mobile security, inertial navigation system, cybersecurity, Android, sensor fusion, machine learning
+\end{IEEEkeywords}
+    
+
 \section{Introduction}
 Global Navigation Satellite Systems (GNSS) are an invisible and often overlooked yet critical piece of infrastructure.  Many aspects of modern life rely on GNSS systems like the American GPS constellation or other systems like the Russian GLONASS constellation, EU Galileo constellation, or Chinese BeiDou constellation.  GNSS systems fall under the broader category Position Navigation and Timing (PNT) systems which are used for military, aviation, maritime, and civilian navigation, but also for some unexpected purposes like synchronizing clocks around the world which plays a critical role in synchronizing the internet as well as time based cryptographic systems \cite{lu2021}. GPS based navigation in aviation is quickly making ground based forms of navigation obsolete due to its high flexibility and lower cost of implementation and maintenance.  It is very common now for aircraft in instrument flight conditions, to be relying solely on the GPS system for navigation. Accurate GNSS service has also become critical for performing basic flight functions and stabilization in modern drones \cite{meng2021}.
 
 As GNSS systems become more relied upon, their value as potential targets for cyber threat actors also grows.  In recent years, GNSS jamming and spoofing attacks have become more and more prevalent, especially in areas with high geopolitical tension such as Ukraine and Iran.
+
 GNSS jamming is a very simple form of denial of service attack involving the use of a radio transmitter to overpower the GNSS signals with noise.  This is very easy to do as the frequencies which GNSS systems operate on are very well known and the satellites’ signals are very weak since they are being sent all the way from space.
+
 GNSS jamming, however, is not nearly as big of a threat as GNSS spoofing.  This is because it is extremely easy for systems to detect a total loss of GNSS signal and to gracefully fail over to a backup system.  In the case of GNSS spoofing, a threat actor will overpower the legitimate GNSS satellites by transmitting false signals impersonating satellites.  If done properly, the transition from real to spoofed GNSS signals can be extremely difficult to detect, leading systems to falsely trust and continue to operate using data being fed in from a malicious actor.  Most targeted GNSS spoofing attacks work by replaying the accurate GNSS signals and then gradually applying a deviation to prevent a sudden detectable jump in position.
 
 Several approaches to GNSS spoofing detection have been proposed.  Power level based detection methods use the signal strength to try and determine when satellite based signals are being overpowered by stronger terrestrial signals, but as attackers become more advanced and carefully tune their transmit power, this method is becoming more difficult to use.  Most other methods of detection rely on a comparison of the received GNSS signals to some known good position information.  This includes ground based stations at a known location checking for GPS error.  Another method proposed for aviation and drones is to make use of the aircraft’s onboard accelerometers and gyroscopes.  Almost all modern aircraft have an Inertial Navigation System (INS).  This system operates using a known starting position and then continuously integrating extremely precise data from the accelerometers and gyroscopes to calculate how the aircraft’s position has changed over time.  Due to the nature of these systems, they can only be used in isolation for a limited time before the accumulation of error renders them unreliable and they need to be periodically reset using GPS position.  It is theoretically possible, however, to compare the relative velocities calculated by the INS and GPS.  If an unusually high difference was noted, it could be evidence that spoofing is taking place \cite{meng2021}.
