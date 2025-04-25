@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                     interferenceTextView.setText("GNSS data ready. Monitoring for spoofing...");
                     interferenceTextView.setTextColor(Color.GREEN);
                 }
-                checkInterference();
+                checkInterfel`rence();
             });
         }
     };
